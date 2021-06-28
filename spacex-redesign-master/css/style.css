@@ -17,10 +17,37 @@ body {
 
 header {
     background: linear-gradient(135deg, rgba(0,0,0,1),rgba(0,0,0,0.2)),
-    url('../img/sunrise.jpg');
+    url('../moonLogo.jpg');
     min-height: 100vh;
     background-size: cover;
 }
+
+#nameS {
+    text-transform: uppercase;
+    text-align: center;
+    pointer-events: none;
+    font-size: 5vw;
+    letter-spacing: 2.6vw;
+    color: #be1e34;
+    color: rgb(172, 12, 38); 
+    text-shadow: 0px 6px 10px #881212; 
+    /* color: rgb(243, 41, 41); 
+    text-shadow: 0px 6px 10px #a00798;  */
+    text-indent: 2.6vw;
+    opacity: 1;
+    font-weight: 100;
+    position: relative;
+    top: 0;
+    left: auto;
+    transform: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .mono2 {
+    font-family: 'Space Mono', monospace;
+    }
 
 header nav {
     padding: 20px 40px 20px 100px;
